@@ -1,7 +1,7 @@
 provider "aws" {
   version = "2.33.0"
 
-  region = var.aws_region
+  region = ap-northeast-2
 }
 
 provider "random" {
